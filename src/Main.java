@@ -4,6 +4,6 @@ public class Main {
 
         int fahrenheit = (int) (celsius * 1.8) + 32;
 
-        System.out.println("A temperatura em celsius %d convertida para fahrenheit é %d".formatted(celsius, fahrenheit));
+        System.out.printf("A temperatura em celsius %d convertida para fahrenheit é %d%n", celsius, fahrenheit);
     }
 }
